@@ -1,0 +1,14 @@
+.mat-toolbar {
+  background: #ffbf00;
+  color: black;
+}
+
+.title {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.body {
+  font-size: 15px;
+  margin: 15px;
+}

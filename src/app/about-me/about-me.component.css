@@ -1,0 +1,28 @@
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: black 3px solid;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.row {
+  margin: 10px;
+}
+
+.left {
+  width: 60%;
+  float: left;
+}
+
+.right {
+  width: 40%;
+  float: right;
+}
+
+.about {
+  margin: 10px;
+}
