@@ -1,0 +1,19 @@
+img {
+  max-height: 100%;
+  position: absolute;
+}
+
+.left {
+  width: 35%;
+  height: 100%;
+  float: left;
+  padding-top: 19px;
+}
+
+#rightCol {
+  width: 65%;
+  float: right;
+  color: #0A0908;
+  padding-right: 55px;
+  padding-left: 45px;
+}

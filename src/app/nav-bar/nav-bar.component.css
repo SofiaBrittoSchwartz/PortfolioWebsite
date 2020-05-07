@@ -1,14 +1,43 @@
 .mat-toolbar {
-  background: #ffbf00;
-  color: black;
+  color: #EE7B30;
+  position: absolute;
+  padding: 0px;
 }
 
 .title {
-  font-size: 20px;
-  margin: 15px;
+  font-size: 30px;
+  /* margin: 15px; */
+  margin-left: 2px;
 }
 
 .body {
-  font-size: 15px;
+  font-size: 18px;
   margin: 15px;
+  float: right;
+}
+
+span {
+  height: 100%;
+}
+
+.container {
+  max-width: 100% !important;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.column {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #EE7B30;
+}
+
+a:hover {
+  color: #260F0D;
 }

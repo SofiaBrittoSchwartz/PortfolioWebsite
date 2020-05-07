@@ -1,5 +1,22 @@
 <mat-toolbar>
-  <span class="title"> {{ name }} </span>
-  <span class="body"> About Me </span>
-  <span class="body"> Resumé </span>
+  <div class="container">
+    <div class="row">
+      <div class="column navbar-right" style="width: 35%;">
+        <span class="title">
+          <a routerLink=''> {{ name }} </a>
+        </span>
+      </div>
+      <div class="column navbar-right" style="width: 65%;">
+        <span class="body">
+          <a routerLink="/about-me"> About Me </a>
+        </span>
+        <span class="body">
+          <a routerLink="/projects"> Projects </a>
+        </span>
+        <span class="body">
+          <a routerLink="/resume"> Resumé </a>
+        </span>
+      </div>
+    </div>
+  </div>
 </mat-toolbar>
